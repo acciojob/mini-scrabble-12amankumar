@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+#evaluatedText{
+   position: absolute;
+   margin-top: 25%;
+   margin-left: 45%;
+    height: 40px;
+    width: 200px;
+    border: 2px solid lightcyan;
+    border-radius: 5px;
+}
+#letterCount{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 51%;
+}
